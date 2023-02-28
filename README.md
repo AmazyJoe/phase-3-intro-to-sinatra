@@ -160,7 +160,7 @@ ability to easily send back a response in different formats. For example, we can
 have it send back some HTML dynamically by generating a string with Ruby:
 
 ```rb
-class App < Sinatra::Base
+helloclass App < Sinatra::Base
 
   get '/dice' do
     dice_roll = rand(1..6)
